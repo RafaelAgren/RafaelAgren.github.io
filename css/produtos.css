@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open sans", sans-serif;
+    box-sizing: border-box;
+}  
+    body.produtosBody{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #B72222;
+    border: 10px solid #921919;
+}
+/*cabeçalho*/
+header{
+    background: #ffe47c;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 50px;
+    /*Menu fixo*/
+    position: fixed;
+    top: 0;
+    border-bottom: 10px solid #921919;
+}
+header img{
+    width: 80px;
+    padding-top: -50;
+}
+#img2{
+    width: 30px;
+}
+nav, ul{
+    list-style: none;
+}
+header nav,ul{
+    display: flex;
+}
+nav li a#header{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav li a#header:hover{
+    color: #ccc;
+}
+nav li{
+    margin: 0 20px;
+}
+#text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+/*rodapé*/
+footer{
+    background: #ffe47c;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    height: 62px;
+    width: 100%;
+    position: fixed;
+    border-top: 10px solid #921919;
+    bottom: 0;
+}
+footer img{
+    width: 60px;
+}
+#footer{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+/*Banner*/
+.altura{
+    height: 1500px;
+}
+section.banner{
+    background: url(../img/bannerpizzaProd.png);
+    height: 384px;
+    width:  978px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+    text-align: right;
+    padding: 100px 50px;
+}
+section.banner h1{
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+section.banner p{
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+section.banner a{
+    color: #000;
+    background: #fff;
+    padding: 18px 40px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+section.banner a:hover{
+    background: rgba(255, 255, 255, 0.5) ;
+}
+
+/* Terminei aqui, só coloquei uma imagem na pagina produtos,
+https://www.youtube.com/watch?v=ZPOcYxlDeNg&list=PLB4niYa2cQQPgnJVDZ6I3vQGFOUwf7n1R&index=18 
+9:39*/
